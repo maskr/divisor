@@ -74,6 +74,8 @@ r2 = DoubleVar()
 
 # tell me things about what you know and want to do
 
+titulodiv = Label (finestra, bg="red", fg="black", text="Voltage Divider")
+titulodiv.pack()
 etiqueta1 = Label(finestra, bg="black", fg="red", text="Insert Vin")
 etiqueta1.pack()
 entrada1=Entry(finestra, highlightbackground="black", bg="red", fg="black", textvar=vin).pack()
